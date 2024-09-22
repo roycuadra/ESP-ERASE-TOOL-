@@ -1,4 +1,4 @@
-('E:\\ERASE PY V1.4\\build\\esp-erase\\PYZ-00.pyz',
+('D:\\Python Software\\ERASE PY V1.7\\build\\esp-erase\\PYZ-00.pyz',
  [('PyQt5',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\__init__.py',
@@ -343,6 +343,10 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
    'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shlex.py',
+   'PYMODULE'),
   ('shutil',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py',
@@ -410,6 +414,10 @@
   ('urllib.parse',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\webbrowser.py',
    'PYMODULE'),
   ('zipfile',
    'C:\\Users\\Roy '

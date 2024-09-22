@@ -1,7 +1,9 @@
-(['E:\\ERASE PY V1.4\\esp-erase.py'],
- ['E:\\ERASE PY V1.4'],
+(['D:\\Python Software\\ERASE PY V1.7\\esp-erase.py'],
+ ['D:\\Python Software\\ERASE PY V1.7'],
  [],
  ['C:\\Users\\Roy '
+  'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\kivymd\\tools\\packaging\\pyinstaller',
+  'C:\\Users\\Roy '
   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
   'C:\\Users\\Roy '
   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib'],
@@ -12,7 +14,7 @@
  {},
  0,
  [],
- [('micro.ico', 'E:\\ERASE PY V1.4\\micro.ico', 'DATA')],
+ [('micro.ico', 'D:\\Python Software\\ERASE PY V1.7\\micro.ico', 'DATA')],
  '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit '
  '(AMD64)]',
  [('pyi_rth_inspect',
@@ -27,7 +29,9 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
    'PYSOURCE'),
-  ('esp-erase', 'E:\\ERASE PY V1.4\\esp-erase.py', 'PYSOURCE')],
+  ('esp-erase',
+   'D:\\Python Software\\ERASE PY V1.7\\esp-erase.py',
+   'PYSOURCE')],
  [('pkgutil',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pkgutil.py',
@@ -436,21 +440,29 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
    'PYMODULE'),
-  ('stringprep',
+  ('tracemalloc',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('stringprep',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
    'PYMODULE'),
   ('PyQt5',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shlex.py',
    'PYMODULE'),
   ('subprocess',
    'C:\\Users\\Roy '
@@ -464,14 +476,6 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
@@ -480,37 +484,69 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+  ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libGLESv2.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+  ('PyQt5\\Qt5\\bin\\opengl32sw.dll',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
    'C:\\Users\\Roy '
@@ -519,30 +555,6 @@
   ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
    'C:\\Users\\Roy '
@@ -592,29 +604,45 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\Roy '
@@ -624,73 +652,57 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll',
    'BINARY'),
-  ('api-ms-win-crt-utility-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'BINARY'),
-  ('VCRUNTIME140_1.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
    'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
    'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
    'C:\\Users\\Roy '
@@ -720,29 +732,61 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Qml.dll',
    'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
+  ('api-ms-win-core-profile-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
+  ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -752,203 +796,51 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY')],
  [],
  [],
- [('micro.ico', 'E:\\ERASE PY V1.4\\micro.ico', 'DATA'),
+ [('micro.ico', 'D:\\Python Software\\ERASE PY V1.7\\micro.ico', 'DATA'),
   ('base_library.zip',
-   'E:\\ERASE PY V1.4\\build\\esp-erase\\base_library.zip',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_he.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_it.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
+   'D:\\Python Software\\ERASE PY V1.7\\build\\esp-erase\\base_library.zip',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_de.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
    'C:\\Users\\Roy '
@@ -958,57 +850,165 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+  ('PyQt5\\Qt5\\translations\\qt_da.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+  ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_de.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_es.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_he.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_en.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_gl.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
    'C:\\Users\\Roy '
@@ -1018,111 +1018,123 @@
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ko.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_uk.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_uk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_ru.qm',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+  ('PyQt5\\Qt5\\translations\\qt_en.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_es.qm',
-   'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_fa.qm',
    'C:\\Users\\Roy '
    'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_da.qm',
+  ('PyQt5\\Qt5\\translations\\qt_it.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
    'C:\\Users\\Roy '
-   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'C:\\Users\\Roy '
+   'Cuadra\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
    'DATA')])
