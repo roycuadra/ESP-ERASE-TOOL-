@@ -4,7 +4,7 @@ I created this Python-based software to simplify the process of erasing flash co
 
 ## Installation
 
-You can download the installer from [GitHub Releases](https://github.com/roycuadra/ESP-ERASE-TOOL-/releases/tag/Installer).
+You can download the installer from [GitHub Releases](https://github.com/roycuadra/ESP-ERASE-TOOL-/releases/tag/v1.1).
 
 ![Demo](https://github.com/user-attachments/assets/9237aa79-e700-47fd-b326-0cc3a80ccfe3)
 
